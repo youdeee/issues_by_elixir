@@ -23,7 +23,9 @@ defmodule Issues.MixProject do
   defp deps do
     [
       httpoison: "~> 0.8",
-      poison: "~> 1.5"
+      poison: "~> 1.5",
+      ex_doc: "~> 0.11",
+      earmark: ">= 0.0.0"
     ]
   end
 
